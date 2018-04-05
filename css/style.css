@@ -1,5 +1,11 @@
 body {
   background-color: #EFEFEF;
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur), default !important;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth !important;
+  -webkit-scrollbar: smooth !important;
 }
 
 ::-webkit-scrollbar {
@@ -12,10 +18,16 @@ body {
   left: 0;
   position: absolute;
   overflow: scroll;
-  cursor: grab;
   top:0;
-  scroll-behavior: smooth !important;
-  -webkit-scrollbar: smooth !important;
+}
+
+img {
+
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 
 .arrows img {
